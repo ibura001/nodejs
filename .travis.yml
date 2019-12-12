@@ -8,4 +8,4 @@ notifications:
 deploy:
   provider: heroku
   api_key: 2eb7aa76-afe9-4edd-9399-8acb26acaa9e
-  secure: nodejslabs
+  app: nodejslabs
