@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "prettier": "prettier --config .prettierrc.json --write src/**/*.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvannaBura/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvannaBura/nodejs/issues"
+  },
+  "homepage": "https://github.com/IvannaBura/nodejs#readme",
+  "dependencies": {
+    "eslint": "^6.7.2",
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1"
+  }
+}
